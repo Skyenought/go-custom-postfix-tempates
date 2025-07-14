@@ -4,6 +4,6 @@
   ANY → $VAR1$ := utils.Must($expr$)
 
 .err  : inline deal with err
-  ANY → if err := $EXPR$; err != nil {
-        $END$
+  ANY → if err := $EXPR$; err != nil {\
+        $END$\
     }
