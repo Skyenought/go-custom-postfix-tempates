@@ -1,0 +1,4 @@
+## custom
+
+.must : add must for func
+  ANY → $VAR1$ := utils.Must($expr$)
